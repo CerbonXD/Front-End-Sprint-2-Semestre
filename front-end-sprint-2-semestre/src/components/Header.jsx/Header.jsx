@@ -56,7 +56,7 @@ export default function Header() {
                     </ul>
                 </nav>
             </div>
-            <img className="max-w-[43.75rem] mt-36 ml-10 hidden md:block" src="header_logo.png" alt="Formula E logo" />
+            <img className="max-w-[40.75rem] mt-36 ml-10 hidden md:block" src="header_logo.png" alt="Formula E logo" />
         </header>
     );
 }
