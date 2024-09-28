@@ -4,13 +4,13 @@ export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
-        <header className="bg-[url('header_background.png')] bg-no-repeat bg-center bg-cover min-h-[58.75rem] max-w-[120rem] mx-auto">
+        <header className="bg-[url('header_background.png')] bg-no-repeat bg-center bg-cover min-h-[58.75rem] max-w-[120rem] mx-auto px-5 lg:px-20">
             <div className="flex md:justify-center justify-end">
                 <nav>
                     {/*Mobile Menu*/}
                     <section className="flex md:hidden">
                         {/*Hamburguer Icon*/}
-                        <div className="space-y-2 pt-8 pr-8" onClick={() => setIsNavOpen((prev) => !prev)}>
+                        <div className="space-y-2 pt-8" onClick={() => setIsNavOpen((prev) => !prev)}>
                             <span className="block h-0.5 w-8 bg-[#019DCB]"></span>
                             <span className="block h-0.5 w-8 bg-[#019DCB]"></span>
                             <span className="block h-0.5 w-8 bg-[#019DCB]"></span>
@@ -18,7 +18,7 @@ export default function Header() {
 
                         <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                             {/*Cross Icon*/}
-                            <div className="absolute top-0 right-0 px-8 py-8" onClick={() => setIsNavOpen(false)}>
+                            <div className="absolute top-0 right-0 px-5 py-8" onClick={() => setIsNavOpen(false)}>
                                 <svg
                                     className="h-8 w-8 text-gray-600"
                                     viewBox="0 0 24 24"
