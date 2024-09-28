@@ -35,7 +35,7 @@ export default function Header() {
                             {/*Menu Mobile*/}
                             <ul className="flex flex-col items-center justify-between min-h-[15.625rem]">
                                 <li className="text-[#019DCB] font-bold"><a href="/about">Problema</a></li>
-                                <li className="text-[#019DCB] font-bold"><a href="/portfolio">Soluçâo</a></li>
+                                <li className="text-[#019DCB] font-bold"><a href="/portfolio">Solução</a></li>
                                 <li className="text-[#019DCB] font-bold"><a href="/contact">Comparação</a></li>
                                 <li className="text-[#019DCB] font-bold"><a href="/contact">Login</a></li>
                             </ul>
@@ -47,7 +47,7 @@ export default function Header() {
                         <li><a className="text-[#019DCB] font-bold" href="/about">|</a></li>
                         <li><a className="text-[#019DCB] font-bold" href="/about">Problema</a></li>
                         <li><a className="text-[#019DCB] font-bold" href="/about">|</a></li>
-                        <li><a className="text-[#019DCB] font-bold" href="/portfolio">Soluçâo</a></li>
+                        <li><a className="text-[#019DCB] font-bold" href="/portfolio">Solução</a></li>
                         <li><a className="text-[#019DCB] font-bold" href="/about">|</a></li>
                         <li><a className="text-[#019DCB] font-bold" href="/contact">Comparação</a></li>
                         <li><a className="text-[#019DCB] font-bold" href="/about">|</a></li>
