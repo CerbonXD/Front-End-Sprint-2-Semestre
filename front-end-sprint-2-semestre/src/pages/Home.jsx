@@ -61,6 +61,26 @@ export default function Home() {
                         }></Card>
                     </div>
                 </section>
+
+                <footer className="bg-[url('section_background.png')] bg-no-repeat bg-center bg-cover px-5 lg:px-20 pb-5 pt-28 text-white">
+                    <div className="flex flex-wrap justify-center gap-10 mb-12">
+                        <img className="max-w-16" src="facebook.png" alt=""/>
+                        <img className="max-w-16" src="instagram.png" alt=""/>
+                        <img className="max-w-16" src="twitter.png" alt=""/>
+                        <img className="max-w-16" src="gmail.png" alt=""/>
+                        <img className="max-w-16" src="youtube.png" alt=""/>
+                    </div>
+                    <div>
+                        <ul className="flex flex-wrap justify-center gap-10 text-3xl">
+                            <li><a href="#" className="font-bold">Home</a></li>
+                            <li><a href="#" className="font-bold">Noticias</a></li>
+                            <li><a href="#" className="font-bold">Sobre</a></li>
+                            <li><a href="#" className="font-bold">Nosso Time</a></li>
+                            <li><a href="#" className="font-bold">Cotate-nos</a></li>
+                        </ul>
+                    </div>
+                    <p className="text-center mt-20">Copyright ©2024; Designed with FIGMA</p>
+                </footer>
             </main>
         </>
     )
