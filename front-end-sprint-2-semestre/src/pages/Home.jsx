@@ -64,11 +64,11 @@ export default function Home() {
 
                 <footer className="bg-[url('section_background.png')] bg-no-repeat bg-center bg-cover px-5 lg:px-20 pb-5 pt-28 text-white">
                     <div className="flex flex-wrap justify-center gap-10 mb-12">
-                        <img className="max-w-16" src="facebook.png" alt=""/>
-                        <img className="max-w-16" src="instagram.png" alt=""/>
-                        <img className="max-w-16" src="twitter.png" alt=""/>
-                        <img className="max-w-16" src="gmail.png" alt=""/>
-                        <img className="max-w-16" src="youtube.png" alt=""/>
+                        <img className="max-w-16" src="facebook.png" alt="Facebook logo" />
+                        <img className="max-w-16" src="instagram.png" alt="Instagram logo" />
+                        <img className="max-w-16" src="twitter.png" alt="Twitter logo" />
+                        <img className="max-w-16" src="gmail.png" alt="Gmail logo" />
+                        <img className="max-w-16" src="youtube.png" alt="YouTube logo" />
                     </div>
                     <div>
                         <ul className="flex flex-wrap justify-center gap-10 text-3xl">
