@@ -39,7 +39,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section className="px-5 lg:px-20">
+                <section className="px-5 lg:px-20 pb-14">
                     <h1 className="text-4xl font-bold text-center md:text-start pt-14 mb-14">Comparação</h1>
                     <div className="flex flex-col md:flex-row gap-5 lg:gap-20 justify-center items-center text-white">
                         <Card img="x.png" title="Impactos Negativos do Problema" text={
